@@ -1,0 +1,28 @@
+1. mkdir Syaipuddin
+2. cd Syaipuddin
+	- mkdir sekolah
+	- mkdir kerja
+3 cd sekolah
+	- touch ijazah.txt
+	- echo Perkenalkan namaku Syaipuddin Muda Pane >> ijazah.txt
+	- echo Aku berasal dari Tapanuli Tengah >> ijazah.txt
+	- echo Salam Kenal :D >> ijazah.txt
+	- cat ijazah.txt
+
+	- touch portfolio.txt	
+	- echo Saya pernah bekerja pada beberapa perusahaan salah satu 
+	  diantaranya ialah >> portfolio.txt
+	- echo Microsoft >> portfolio.txt
+	- echo Skilvul >> portfolio.txt
+	- echo Google >> portfolio.txt
+4. cd ..
+5. cd kerja
+	- touch cv.txt
+	- echo Salam, >>cv.txt
+	- echo Perkenalkan namaku Syaipuddin Muda Pane, Saya memiliki kegemaran >>cv.txt
+	- echo Coding >>cv.txt
+	- echo Gaming >>cv.txt
+	- echo Fishing >>cv.txt
+	- cat cv.txt
+6. cd ../sekolah
+	mv portfolio.txt ../kerja
