@@ -1,0 +1,26 @@
+=> SET name ="jhon"
+=> DISPLAY Thermometer
+
+=> DECLARE Value,Ttpe, Result
+
+=> STORE Value with Temperature value
+=> STORE Type with Temperature type 
+
+=> IF TYPE is = Farenheit 
+		-THEN COMPUTE (Value -32) *(5/9) = Result
+		-DISPLAY "The Conversion Result is =", Result, C
+=> ELSE IF TYPE is = Kelvin
+		-THEN COMPUTE (Value -273.15)
+		-DISPLAY "The Conversion Result is=", Result C
+=> ELSE DISPLAY "The Conversion Result is=", Value C
+
+=>INPUT 1
+	-Thermometer
+	-Value= 86
+	-Type= Farenheit
+	-The Conversion Result is= 30 C
+=> INPUT 2 
+	-Thermometer
+	-Value= 45
+	-Type= Celcius
+	-The Conversion Result is= 45 C

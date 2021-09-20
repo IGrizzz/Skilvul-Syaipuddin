@@ -1,0 +1,29 @@
+=> STORE n with any Value,
+=> i = 0;
+=> n = 20;
+
+
+=> DO i++
+	-IF i % 3 = 0
+		DISPLAY"Fizz"
+	-ELSE IF i % 5 = 0
+		DISPLAY	"Buzz"
+	-ELSE i % 15 = 0 
+		DISPLAY "FizzBuzz"
+	-ELSE DISPLAY i 
+
+=> WHILE i <= n 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

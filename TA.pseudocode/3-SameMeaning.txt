@@ -1,0 +1,17 @@
+=> INPUT KATA // User input KODOK
+=> PANJANG_KATA = LENG KATA
+
+=> kata_awal = PANJANG_KATA
+=> kata_akhir = 0
+
+=> output = TRUE 
+
+=> WHILE kata_awal = PANJANG_KATA
+	-IF KATA (kata_akhir) is not  KATA (kata_awal) THEN
+	-output = FALSE 
+	-END IF 
+	-kata_awal --
+	-kata_akhir ++
+
+=> DISPLAY output
+=> DISPLAY "SELESAI"
