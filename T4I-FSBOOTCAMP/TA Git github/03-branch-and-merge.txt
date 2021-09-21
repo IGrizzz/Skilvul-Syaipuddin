@@ -1,0 +1,12 @@
+1. Remove untracked file from working tree
+2. -d flags is used to have git clean recurse into untracked directories
+   -f flags is used to delete untracked directories If the Git configuration variable clean.requireForce is not set to false
+3. git branch <branch name>
+4. -the difference is the fast forward merge is only single line history and when creating a branch only need to commit on that branch 
+   -meanwhile the Recursive merge after creating branch and make some commits, there are some new original commits on the master branch
+5. git checkout <branch-name>
+6. rm <file-name>
+7. git branch -d <branch-name>
+8. git diff is a function that takes two input data sets and outputs the changes between them
+9. git checkout <file-name>
+10.merge conflict happens when two branches both modify the same region of a file and are subsequently merged.

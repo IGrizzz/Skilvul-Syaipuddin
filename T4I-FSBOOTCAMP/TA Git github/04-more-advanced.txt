@@ -1,0 +1,7 @@
+1. -git reset will wipe the changes history after undoing, git reset is used when we will not going back to the wiped commits
+   -git reert will not wipe the changis history after undoing, git revert is used when we will back to the commits int the future
+2. -git merge is a command to merge two branch together, is used to combine two branch.
+   -git rebase is a command to combine two branch and make it in a new base commit, is used to combine two branch into new base commit
+3  -git stash pop Remove a single stashed state from the stash list and apply it on top of the current working tree state, this command used when you want to record the current state of the working directory and the index and remove a single stashed state
+   -git stash apply do not remove the state from the stash list, this command used when you want to record the current state of the working directory and the index and dont want to remove a single stashed state
+4  -in interactive mode when rebasing you can do many things such as editing, deleting, adn squashing commits

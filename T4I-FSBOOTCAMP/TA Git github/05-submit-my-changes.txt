@@ -1,0 +1,17 @@
+1. (terlampir)
+2. $ git clone https://github.com/IGrizzz/tech4impact-students-bio.
+   $ cd tech4impact-students-bio
+3  $ git branch syaipuddin
+4. $ git checkout syaipuddin
+5. $ touch syaipuddin.md
+6. (terlampir)
+7. $ git add syaipuddin.md
+8. $ git commit -m "syaipuddin.md"
+9. $ cd checkout master
+   $ git merge syaipuddin
+10.$ git push
+11. (terlampir)
+
+
+
+link Drive : https://drive.google.com/folderview?id=1ULcZcHVeV5wXFXw9YZ3o5UxJ0Q1e8S9L

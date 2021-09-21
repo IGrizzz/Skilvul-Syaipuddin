@@ -1,0 +1,34 @@
+$ git config --global user.email muda3332@gmail.com
+$ git config --global user.name iGrizzz
+
+$ mkdir Syaipuddin-Muda
+$ touch README.md
+$ echo Halo perkenalkan ini halaman utama > README.md
+$ git init .
+$ git add README.md
+$ git commit -m "Inisialisasi Git Repository"
+
+$ git branch cv
+$ git checkout cv
+$ touch cv.txt
+$ echo Ini adalah file CV > cv.txt
+$ git add cv.txt
+$ git commit -m "Inisialisasi CV"
+$ git touch perusahaan.txt
+$ echo Google > perusahaan.txt
+$ git add perusahaan.txt
+$ git commit -m "Google"
+$ echo Microsoft >> perusahaan.txt
+$ git add perusahaan.txt
+$ git commit -m "Microsoft"
+$ echo Gojek >> perusahaan.txt
+$ git add perusahaan.txt
+$ git commit -m "Gojek"
+
+$ git checkout master
+$ echo Ini adalah update pertama pada branch master >> README.md
+$ git add README.md
+$ git commit -m "update master pertama"
+$ git merge cv
+$ git commit -m "merge"
+
